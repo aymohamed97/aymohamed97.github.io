@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
 * {
-  margin: 0;
+  box-sizing: border-box;
   font-family: 'Quattrocento Sans', sans-serif;
 }
 body{
     background-image: url("https://images.unsplash.com/photo-1504548840739-580b10ae7715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 h1{
     display: flex;
@@ -15,9 +16,15 @@ h1{
     align-items: center;
     margin-top: 90px;
 }
-title{
-    font-family: 'Quattrocento Sans', sans-serif;
-
+header {
+    background-color: rgba(156, 182, 197, 0.747);
+    color: #5a4830;
+    height: 21vh;
+    margin-top: -66px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 svg {
   position:absolute;
@@ -36,7 +43,7 @@ nav {
 }
 
 svg.open {
-  top: -106px;
+  top: -61px;
   left: -131px; 
 }
 
