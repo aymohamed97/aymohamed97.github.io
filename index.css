@@ -25,11 +25,11 @@ svg {
    left: -600px;
     top: -600px;
   display: block;
-  filter: drop-shadow(10px 20px 5px #c45bf580);
+  filter: drop-shadow(10px 20px 5px #a6aed180);
   transition: left 1.5s, top 1.5s;
 }
 
-.nav {
+nav {
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -40,11 +40,11 @@ svg.open {
   left: -131px; 
 }
 
-.nav #links {
+nav #links {
   display: none;
 }
 
-.nav a {
+nav a {
   color: black;
   padding: 19px 16px;
   text-decoration: none;
@@ -67,7 +67,7 @@ svg.open {
   }
 }
 
-.nav a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
