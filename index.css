@@ -4,7 +4,7 @@
   font-family: 'Quattrocento Sans', sans-serif;
 }
 body{
-    background-image: url("https://images.unsplash.com/photo-1504548840739-580b10ae7715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1589496933738-f5c27bc146e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -17,9 +17,10 @@ h1{
     margin-top: 90px;
 }
 header {
-    background-color: rgba(156, 182, 197, 0.747);
-    color: #5a4830;
-    height: 21vh;
+    background-color: rgba(245, 222, 179, 0.548);
+    color: #e7c190;
+    font-size: large;
+    height: 17vh;
     margin-top: -66px;
     width: 100vw;
     display: flex;
@@ -49,13 +50,14 @@ svg.open {
 
 nav #links {
   display: none;
+  color: forestgreen;
 }
 
 nav a {
-  color: black;
+  color: forestgreen;
   padding: 19px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
   animation-name: text;
   animation-duration: 1s;
@@ -76,6 +78,9 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+nav .icon{
+    color:wheat;
 }
 
 #links a {
